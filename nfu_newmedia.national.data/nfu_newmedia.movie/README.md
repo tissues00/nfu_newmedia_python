@@ -23,6 +23,3 @@ national.data.py
 
 ## 作者成员：
 见[_team_.tsv](_team_/_team_.tsv)
-
-
-		成员列表，统计用，一人一行，输入Github 帐户名即可（此行完成後应删）
