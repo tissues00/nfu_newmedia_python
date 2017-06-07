@@ -9,9 +9,9 @@ national.data.py
 		
 
 ## 输入：
-用户输入变数1（型态1）丶变数2（型态2）丶
+用户选择想知道的数据，系统可为您查询
 ## 输出：
-用户得到输出结果为：
+用户得到输出结果为：用户所选数据
 ## 从输入到输出，本组作品使用了：
 ### 模块
 * [folium](https://github.com/python-visualization/folium)
