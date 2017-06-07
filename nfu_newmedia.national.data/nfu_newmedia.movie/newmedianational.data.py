@@ -8,14 +8,14 @@ app = Flask(__name__)
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上选色！')
+                           the_title='欢迎来到国家数据！')
 
 @app.route('/pick_a_color', methods=['POST'])
 def pick_a_color() -> 'html':
     """提取用户web 请求POST方法提交的数据（输入），不执行任何动作（处理），直接返回（输出）。"""
     user_color = request.form['user_color']	
     return render_template('results.html',
-                           the_title = '以下是您选取的颜色：',
+                           the_title = '以下是您选取的数据：',
                            the_color = user_color,
                            )
 
