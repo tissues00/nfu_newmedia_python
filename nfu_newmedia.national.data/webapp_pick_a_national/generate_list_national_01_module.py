@@ -20,9 +20,9 @@ def national_name(c_code=''):
     return (c_name)
 
 #測試   
-print (country_name('CN'))
-print (country_name('SG'))
-print (country_name('ZZ'))
-print (country_name('ABC'))
-print (country_name(''))
+print (national_name('CN'))
+print (national_name('SG'))
+print (national_name('ZZ'))
+print (national_name('ABC'))
+print (national_name(''))
  
