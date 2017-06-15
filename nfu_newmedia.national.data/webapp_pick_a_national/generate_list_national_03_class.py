@@ -23,9 +23,9 @@ class national_list_name (object):
 c = national_list_name()
 
 #測試   
-print (c.country_name('CN'))
-print (c.country_name('SG'))
-print (c.country_name('ZZ'))
-print (c.country_name('ABC'))
-print (c.country_name(''))
+print (c.national_name('CN'))
+print (c.national_name('SG'))
+print (c.national_name('ZZ'))
+print (c.national_name('ABC'))
+print (c.national_name(''))
  
