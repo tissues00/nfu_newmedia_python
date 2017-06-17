@@ -1,9 +1,9 @@
 # 中山大学南方学院 2016 - 2017 
 # 文学与传媒系【Python】分组项目
 
-pick_a_country_4web.py
+webapp_pick_a_GuangDong_zhibiao
 # 简介 
-地区指标查询，操练Python语言开发练习
+广东某些指标的数据查询
 ## 输入：
 用户下拉选单选择广东省内指标
 ## 输出：
