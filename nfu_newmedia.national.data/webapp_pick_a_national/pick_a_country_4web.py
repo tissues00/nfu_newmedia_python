@@ -15,7 +15,7 @@ app = Flask(__name__)
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上 国家数据！！')
+                           the_title='欢迎来到网上 国家数据指标选择器！')
 
 @app.route('/pick_a_country', methods=['POST'])
 def pick_a_color() -> 'html':
