@@ -17,15 +17,15 @@ def entry_page() -> 'html':
     return render_template('entry.html',
                            the_title='欢迎来到网上 国家数据指标选择器！')
 
-@app.route('/pick_a_country_zhibiao', methods=['POST'])
-def pick_a_country_zhibiao() -> 'html':
+@app.route('/pick_a_GuangDong_zhibiao', methods=['POST'])
+def pick_a_GuangDong_zhibiao() -> 'html':
     """提取用户web 请求POST方法提交的数据（输入），不执行任何动作（处理），直接返回（输出）。"""
-    user_national_name = request.form['user_national']	
-    user_national_code = c_dict_reverse[user_national_name]	
+    user_GuangDong_zhibiao_name = request.form['user_GuangDong_zhibiao']	
+    user_GuangDong_code = c_dict_reverse[user_GuangDong_name]	
     return render_template('results.html',
                            the_title = '以下是您选取的数据：',
-                           the_national_code = user_national_code,
-                           the_national_name = user_national_name,
+                           the_GuangDong_zhibiao_code = user_GuangDong_zhibiao_code,
+                           the_GuangDong_zhibiao_name = user_GuangDong_zhibiao_name,
                            )
 
 if __name__ == '__main__':
