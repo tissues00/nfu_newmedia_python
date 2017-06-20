@@ -1,9 +1,3 @@
-webapp_pick_a_GuangDong_zhibiao
-# 简介 
-webapp_pick_a_GuangDong_zhibiao 选取广东省某些数据，使用[HTML <select> 标签](http://www.w3school.com.cn/tags/tag_select.asp)
-
-
-
 # 中山大学南方学院 2016 - 2017 
 # 文学与传媒系【Python】分组项目
 
