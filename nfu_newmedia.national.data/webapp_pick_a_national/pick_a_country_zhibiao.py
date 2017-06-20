@@ -17,8 +17,8 @@ def entry_page() -> 'html':
     return render_template('entry.html',
                            the_title='欢迎来到网上 国家数据指标选择器！')
 
-@app.route('/pick_a_zhibiao', methods=['POST'])
-def pick_a_zhibiao() -> 'html':
+@app.route('/pick_a_country_zhibiao', methods=['POST'])
+def pick_a_country_zhibiao() -> 'html':
     """提取用户web 请求POST方法提交的数据（输入），不执行任何动作（处理），直接返回（输出）。"""
     user_national_name = request.form['user_national']	
     user_national_code = c_dict_reverse[user_national_name]	
