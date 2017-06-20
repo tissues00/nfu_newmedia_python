@@ -5,7 +5,6 @@ webapp_pick_a_GuangDong_zhibiao 选取广东省某些数据，使用[HTML <selec
 # 中山大学南方学院 2016 - 2017 
 # 文学与传媒系【Python】分组项目
 
-用户得到输出结果为：指标内容
 ## 从输入到输出，本组作品使用了：
 ### 模块
 * [folium](https://github.com/python-visualization/folium)
