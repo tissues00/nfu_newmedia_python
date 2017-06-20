@@ -43,4 +43,9 @@ webapp_pick_China_zhibiao
 * [github](https://api.github.com/)
 
 ## 作者成员：
-见[_team_.tsv](_team_/_team_.tsv)
+二B 冯卓然
+二B 何彩红
+二B 陈梓君
+二B 陈铮
+二B 高祖炜
+二B 符浩
