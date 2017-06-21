@@ -36,7 +36,7 @@ webapp_pick_China_zhibiao
 * [csv](http://baike.baidu.com/link?url=2LfE8T1ayJHkQSueL6tk3jkiOWJESDWdfNr-cEp5WDkuNEJzSbRhEqgiOU39LMq1wLNBfiBpejpkm6BmEOGOdq)
 * [API](http://baike.baidu.com/link?url=mOnTCMtnJsBfOT3Oo0CvCE_iJqMGCz1ugmLAjxHncCfnrS6a8dkUbC5G6r7WwQrLCqpZtFQ27TVSa5oCqZ4uuK)
 * [json](http://baike.baidu.com/link?url=IDtfAkimfLYAV3WQEmPbJT3eHkPx3RFTCLYjna0UaO1pkbV0eyrNNwf5pgwNJRpDU-IVOrPGAbZaMaN9EPnuta)
-* [request](http://baike.baidu.com/item/Request/10991926
+* [request](http://baike.baidu.com/item/Request/10991926)
 
 ### 数据
 * [简中CLDR localenames](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
