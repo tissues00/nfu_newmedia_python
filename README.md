@@ -34,7 +34,6 @@ webapp_pick_China_zhibiao
 ## 从输入到输出，本组作品使用了：
 ### 模块
 * [csv](http://baike.baidu.com/link?url=2LfE8T1ayJHkQSueL6tk3jkiOWJESDWdfNr-cEp5WDkuNEJzSbRhEqgiOU39LMq1wLNBfiBpejpkm6BmEOGOdq)
-* [API](http://baike.baidu.com/link?url=mOnTCMtnJsBfOT3Oo0CvCE_iJqMGCz1ugmLAjxHncCfnrS6a8dkUbC5G6r7WwQrLCqpZtFQ27TVSa5oCqZ4uuK)
 * [json](http://baike.baidu.com/link?url=IDtfAkimfLYAV3WQEmPbJT3eHkPx3RFTCLYjna0UaO1pkbV0eyrNNwf5pgwNJRpDU-IVOrPGAbZaMaN9EPnuta)
 * [request](http://baike.baidu.com/item/Request/10991926)
 
