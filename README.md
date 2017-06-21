@@ -47,5 +47,5 @@ webapp_pick_China_zhibiao
 二B 何彩红
 二B 陈梓君
 二B 陈铮
-二B 高祖炜
 二B 符浩
+二B 高祖炜
