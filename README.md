@@ -33,8 +33,8 @@ webapp_pick_China_zhibiao
 
 ## 从输入到输出，本组作品使用了：
 ### 模块
-* [folium](https://github.com/python-visualization/folium)
-* [opencv](http://opencv.org/)
+* [csv](http://baike.baidu.com/link?url=2LfE8T1ayJHkQSueL6tk3jkiOWJESDWdfNr-cEp5WDkuNEJzSbRhEqgiOU39LMq1wLNBfiBpejpkm6BmEOGOdq
+* [API](http://opencv.org/)
 
 ### 数据
 * [简中CLDR localenames](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
