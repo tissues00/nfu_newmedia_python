@@ -3,7 +3,7 @@
 
 def get_national_name(fn='data\national.tsv'):
    import csv
-   with open(fn, 'r', encoding='utf8') as csvfile:
+   if open(fn, 'r', encoding='utf8') as csvfile:
        reader = csv.DictReader(csvfile, fieldnames=['c_code', 'c_name'], delimiter='\t')
        fieldnames = reader.fieldnames
 
