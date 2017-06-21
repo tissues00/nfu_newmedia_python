@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>您选取的是：</p>
+<table>
+<tr><td>你所选择的指标：</td><td>{{ the_selsct_zb }}</td></tr>
+<tr><td>你所选择的地区</td><td>{{ the_selsct_dq }}</td></tr>
+<tr><td>你所选择的年份</td><td>{{ the_selsct_sj }}</td></tr>
+<tr><td>数据：</td><td>{{ the_national_name }}</td></tr>
+</table>
+
+{% endblock %}
