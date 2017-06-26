@@ -58,7 +58,7 @@ webapp_pick_China_zhibiao
 
 6. 後端服务器收到用户web 请求，匹配到@app.route('/pick_a_GuangDong_zhibao', methods=['POST'])的函数 pick_a_GuangDong_zhibao() 
 
-7. [pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 def pick_a_zb() 函数，把用户提交的数据，以flask 模块request.form['user_zb']	取到Web 请求中，HTML表单变数名称user_zb的值，存放在user_zb这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中the_selsct_zb的值，用the_selsct_zb这变数之值，其他3项值如此类推。
+7. [pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 def pick_a_zb() 函数，把用户提交的数据，以flask 模块request.form['pick_a_GuangDong_zhibao']	取到Web 请求中，HTML表单变数名称pick_a_GuangDong_zhibao的值，存放在pick_a_GuangDong_zhibao这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中the_selsct_zb的值，用这变数之值，其他3项值如此类推。
 
 8. 前端浏览器收到web 响应：模版中[templates/results.html](templates/results.html) 的变数值正确的产生的话，前端浏览器会收到正确响应，看到指标的相关元数据。
 
