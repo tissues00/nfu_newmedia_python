@@ -50,7 +50,7 @@ webapp_pick_China_zhibiao
 
 2. 前端浏览器web 请求：访问 http://127.0.0.1:5000/ 启动前端web 请求
 
-3. 後端伺服器web 响应：[pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版[templates/entry.html](templates/entry.html)及一个含指标代码及名称的字典（见代码 the_list_items = meta['cname']）产出的产生《欢迎来到网上全国数据指标器说明！》的HTML页面
+3. 後端伺服器web 响应：[pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版[templates/entry.html](templates/entry.html)及一个含指标代码及名称的字典（见代码 the_list_items = meta['cname']）产出的产生《欢迎来到网上全国数据指标器》的HTML页面
 
 4. 前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'user_zb'，使用了HTML5的datalist 定义在 list="zbs" 及 datalist标签，详见HTML模版[templates/entry.html](templates/entry.html)
 
