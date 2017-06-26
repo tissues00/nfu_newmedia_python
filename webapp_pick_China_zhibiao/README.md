@@ -50,15 +50,15 @@ webapp_pick_China_zhibiao
 
 2. 前端浏览器web 请求：访问 http://127.0.0.1:5000/ 启动前端web 请求
 
-3. 後端伺服器web 响应：[pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版[templates/entry.html](templates/entry.html)及一个含指标代码及名称的字典（见代码 the_list_items = meta['cname']）产出的产生《欢迎来到网上全国数据指标器》的HTML页面
+3. 後端伺服器web 响应：[pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版[templates/entry.html](templates/entry.html)及一个含指标代码及名称的字典（见代码 the_list_items = c_list,the_province_list=p_list,）产出的产生《欢迎来到网上全国数据指标器》的HTML页面
 
-4. 前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 select类型，变数名称(name)为'pick_a_GuangDong_zhibao'，使用了HTML5的datalist 定义在 list="zbs" 及 datalist标签，详见HTML模版[templates/entry.html](templates/entry.html)
+4. 前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 select类型，变数名称(name)为'pick_a_GuangDong_zhibao'，'user_GuangDong_place','user_GuangDong_zh_year'使用了HTML5的 select 元素，详见见HTML模版[templates/entry.html](templates/entry.html)
 
 5. 前端浏览器web 请求：用户选取指标後按了提交钮「搞吧」，则产生新的web 请求，按照form元素中定义的method='POST' action='/pick_a_GuangDong_zhibao'，以POST为方法，动作为/pick_a_GuangDong_zhibao的web 请求
 
 6. 後端服务器收到用户web 请求，匹配到@app.route('/pick_a_GuangDong_zhibao', methods=['POST'])的函数 pick_a_GuangDong_zhibao() 
 
-7. [pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 def pick_a_zb() 函数，把用户提交的数据，以flask 模块request.form['pick_a_GuangDong_zhibao']	取到Web 请求中，HTML表单变数名称pick_a_GuangDong_zhibao的值，存放在pick_a_GuangDong_zhibao这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中the_selsct_zb的值，用这变数之值，其他3项值如此类推。
+7. [pick_a_GuangDong_zhibiao.py](pick_a_GuangDong_zhibiao.py) 中 def pick_a_GuangDong_zhibao()  函数，把用户提交的数据，以flask 模块request.form['pick_a_GuangDong_zhibao'],request.form['user_GuangDong_place'],request.form['user_GuangDong_zh_year']	取到Web 请求中，HTML表单变数名称pick_a_GuangDong_zhibao的值，存放在province_zb这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中province_zb的值，用这变数之值，其他3项值如此类推。
 
 8. 前端浏览器收到web 响应：模版中[templates/results.html](templates/results.html) 的变数值正确的产生的话，前端浏览器会收到正确响应，看到指标的相关元数据。
 
