@@ -63,9 +63,4 @@ webapp_pick_China_zhibiao
 8. 前端浏览器收到web 响应：模版中[templates/results.html](templates/results.html) 的变数值正确的产生的话，前端浏览器会收到正确响应，看到指标的相关元数据。
 
 ## 作者成员：
-二B 冯卓然
-二B 何彩红
-二B 陈梓君
-二B 陈铮
-二B 高祖炜
-二B 符浩
+[见_team_/_team_.tsv](_team_/_team_.tsv)
