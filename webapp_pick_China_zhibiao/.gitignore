@@ -53,7 +53,7 @@ __pycache__
 # Files
 *.log created by Python runtime
 
-# data files for 二F 
+# data files for 二B 
 province/data/*.tsv
 province/__note__/
 
